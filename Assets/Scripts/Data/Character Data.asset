@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564d59ea9a5b01b489def2c94c7668ac, type: 3}
+  m_Name: Character Data
+  m_EditorClassIdentifier: 
+  _acceleration: 0.5
+  _maxSpeed: 4.6
+  _currentSpeed: 0
+  _gravityVelocity: {x: 0, y: -20}
+  _direction: {x: 0, y: 0, z: 0}
+  _velocity: {x: 0, y: 0, z: 0}
+  _currentAnimationBlendvector: {x: 0.7071061, y: 0.70710707}
+  _isAir: 0
+  _isGrounded: 1
+  _isRun: 0
+  _gravityValue: -20
+  _jumpForce: 2
+  _gravityScale: 1.6
+  _jumpHeight: 0.78
+  _jumpLength: 1.3
+  _jumpAmount: 2
+  _isJump: 0
+  _jumpCount: 0
